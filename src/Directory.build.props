@@ -1,7 +1,7 @@
 ﻿<Project>
     <PropertyGroup>
         <LangVersion>latest</LangVersion>
-        <FixieVersion>2.0.4</FixieVersion>
+        <FixieVersion>2.1.1</FixieVersion>
         <xUnitVersion>2.4.1</xUnitVersion>
         <BenchmarkFramework>netcoreapp2.2</BenchmarkFramework>
     </PropertyGroup>

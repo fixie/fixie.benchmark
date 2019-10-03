@@ -1,0 +1,7 @@
+pool:
+  vmImage: windows-latest
+
+steps:
+- script: build
+  env:
+    SYSTEM_ACCESSTOKEN: $(System.AccessToken)

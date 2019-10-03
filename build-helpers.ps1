@@ -29,6 +29,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 function exec($command, $path, $expectedReturnCode=0) {
+    Write-Host
+    Write-Host $command.ToString().Trim() -fore CYAN
+    Write-Host
+
     if ($null -eq $path) {
         $global:lastexitcode = 0
         & $command

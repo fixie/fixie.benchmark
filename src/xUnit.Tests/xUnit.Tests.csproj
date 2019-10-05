@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>$(BenchmarkFramework)</TargetFramework>
+    <TargetFrameworks>$(BenchmarkFrameworks)</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>

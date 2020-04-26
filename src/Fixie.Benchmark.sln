@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGeneration", "CodeGener
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Shared.projitems*{06c8a59e-9d61-47bf-8825-48a4daefa3d5}*SharedItemsImports = 5
 		Shared\Shared.projitems*{56ebc34b-4b1c-4fc2-8377-c1706c898a30}*SharedItemsImports = 13
+		Shared\Shared.projitems*{b548141a-373e-469d-8f85-5917e17f8bb1}*SharedItemsImports = 5
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -3,6 +3,5 @@
         <LangVersion>latest</LangVersion>
         <FixieVersion>2.2.1</FixieVersion>
         <xUnitVersion>2.4.1</xUnitVersion>
-        <BenchmarkFrameworks>netcoreapp2.1;netcoreapp3.1</BenchmarkFrameworks>
     </PropertyGroup>
 </Project>

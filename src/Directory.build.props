@@ -1,7 +1,7 @@
 ﻿<Project>
     <PropertyGroup>
         <LangVersion>latest</LangVersion>
-        <FixieVersion>2.2.1</FixieVersion>
+        <FixieVersion>3.0.0-alpha.3</FixieVersion>
         <xUnitVersion>2.4.1</xUnitVersion>
     </PropertyGroup>
 </Project>

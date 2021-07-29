@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Fixie" Version="$(FixieVersion)" />
-    <DotNetCliToolReference Include="Fixie.Console" Version="$(FixieVersion)" />
+    <PackageReference Include="Fixie.TestAdapter" Version="$(FixieVersion)" />
   </ItemGroup>
 
   <Import Project="..\Shared\Shared.projitems" Label="Shared" />

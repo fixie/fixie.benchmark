@@ -1,17 +1,16 @@
-﻿. .\build-helpers
+﻿$ErrorActionPreference = "Stop"
 
-$authors = "Patrick Lioi"
-$copyright = copyright 2019 $authors
-$configuration = 'Release'
-
-main {
-    mit-license $copyright
-    exec { dotnet --version }
-    exec { dotnet tool restore }
-
-    exec { dotnet clean src -c $configuration --nologo -v minimal }
-    exec { dotnet build src -c $configuration --nologo }
-
-    exec { dotnet fixie Fixie.Tests -c $configuration --no-build }
-    exec { dotnet test src/xUnit.Tests -c $configuration --no-build }
+function step($command) {
+    write-host ([Environment]::NewLine + $command.ToString().Trim()) -fore CYAN
+    & $command
+    if ($lastexitcode -ne 0) { throw $lastexitcode }
 }
+
+step { dotnet --version }
+step { dotnet tool restore }
+
+step { dotnet clean src -c Release --nologo -v minimal }
+step { dotnet build src -c Release --nologo }
+
+step { dotnet fixie Fixie.Tests -c Release --no-build }
+step { dotnet test src/xUnit.Tests -c Release --no-build --nologo }

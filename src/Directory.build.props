@@ -1,6 +1,5 @@
 ﻿<Project>
     <PropertyGroup>
-        <LangVersion>latest</LangVersion>
         <FixieVersion>3.2.0</FixieVersion>
         <xUnitVersion>2.4.1</xUnitVersion>
     </PropertyGroup>

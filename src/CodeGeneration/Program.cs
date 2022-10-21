@@ -19,7 +19,6 @@ namespace CodeGeneration
                 GeneratedClass(folder, testClass);
 
             Console.WriteLine("Wrote to " + RootFolder);
-            Console.ReadLine();
         }
 
         static void GeneratedClass(int folder, int testClass)

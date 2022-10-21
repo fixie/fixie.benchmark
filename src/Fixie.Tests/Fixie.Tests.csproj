@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Fixie.TestAdapter" Version="$(FixieVersion)" />
+    <PackageReference Include="Fixie.TestAdapter" />
   </ItemGroup>
 
   <Import Project="..\Shared\Shared.projitems" Label="Shared" />

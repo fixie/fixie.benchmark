@@ -1,7 +1,0 @@
-﻿<Project>
-    <PropertyGroup>
-        <FixieVersion>3.2.0</FixieVersion>
-        <xUnitVersion>2.4.1</xUnitVersion>
-        <xUnitVisualStudioVersion>2.4.3</xUnitVisualStudioVersion>
-    </PropertyGroup>
-</Project>

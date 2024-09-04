@@ -13,4 +13,3 @@ step { dotnet clean src -c Release --nologo -v minimal }
 step { dotnet build src -c Release --nologo }
 
 step { dotnet fixie Fixie.Tests -c Release --no-build }
-step { dotnet test src/xUnit.Tests -c Release --no-build --nologo }

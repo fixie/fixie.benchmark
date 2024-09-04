@@ -29,13 +29,11 @@ namespace CodeGeneration
             var content = new StringBuilder();
             content.AppendLine($"namespace Shared.{folderName}");
             content.AppendLine("{");
-            content.AppendLine("    using Xunit;");
-            content.AppendLine();
             content.AppendLine($"    public class {className}");
             content.AppendLine("    {");
             for (int test = 1; test <= TestsPerClass; test++)
             {
-                content.AppendLine($"        [Fact] public void Test_{test:000}() {{ }}");
+                content.AppendLine($"        public void Test_{test:000}() {{ }}");
             }
             content.AppendLine("    }");
             content.AppendLine("}");

@@ -1,7 +1,0 @@
-pool:
-  vmImage: windows-latest
-
-steps:
-- pwsh: ./build.ps1
-  env:
-    SYSTEM_ACCESSTOKEN: $(System.AccessToken)

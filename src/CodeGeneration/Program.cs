@@ -27,15 +27,14 @@ namespace CodeGeneration
             var className = $"Benchmark{testClass:000}Tests";
 
             var content = new StringBuilder();
-            content.AppendLine($"namespace Shared.{folderName}");
+            content.AppendLine($"namespace Fixie.Tests.{folderName};");
+            content.AppendLine();
+            content.AppendLine($"public class {className}");
             content.AppendLine("{");
-            content.AppendLine($"    public class {className}");
-            content.AppendLine("    {");
             for (int test = 1; test <= TestsPerClass; test++)
             {
-                content.AppendLine($"        public void Test_{test:000}() {{ }}");
+                content.AppendLine($"    public void Test_{test:000}() {{ }}");
             }
-            content.AppendLine("    }");
             content.AppendLine("}");
 
             var folderPath = Path.Combine(RootFolder, folderName);

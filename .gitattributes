@@ -1,7 +1,5 @@
-*.txt text
 *.md text
 
-*.cmd text
 *.ps1 text
 
 *.sln text
@@ -9,7 +7,5 @@
 *.props text
 *.DotSettings text
 
-*.shproj text
-*.projitems text
 *.csproj text
 *.cs text diff=csharp

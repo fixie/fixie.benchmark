@@ -10,7 +10,7 @@ namespace CodeGeneration
         const int Folders = 10;
         const int TestClassesPerFolder = 50;
         const int TestsPerClass = 50;
-        const string RootFolder = "C:\\dev\\fixie.benchmark\\src\\Shared\\";
+        const string RootFolder = "C:\\dev\\fixie.benchmark\\src\\Fixie.Tests\\";
         
         static void Main(string[] args)
         {

@@ -8,8 +8,4 @@
     <PackageReference Include="Fixie.TestAdapter" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Include="..\Shared\**\*.cs" />
-  </ItemGroup>
-
 </Project>

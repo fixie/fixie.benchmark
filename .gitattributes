@@ -1,11 +1,11 @@
 *.md text
-
+*.config text
 *.ps1 text
 
 *.sln text
 *.json text
 *.props text
-*.DotSettings text
+*sln.DotSettings text
 
 *.csproj text
 *.cs text diff=csharp

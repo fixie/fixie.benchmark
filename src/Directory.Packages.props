@@ -3,6 +3,6 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Fixie.TestAdapter" Version="4.0.0-alpha.0.48" />
+    <PackageVersion Include="Fixie.TestAdapter" Version="4.0.0" />
   </ItemGroup>
 </Project>
